@@ -56,22 +56,23 @@ Evaluation metrics used: Accuracy score, classification report (precision, recal
 
 **1. Multiclass Sentiment Classification**
 
-CatBoost: 62.32%
-Logistic Regression: 61.36%
-SVM: 60.79%
-SGD: 56.39%
-Random Forest: 56.29%
-Naive Bayes: 46.87%
+1. CatBoost: 62.32%
+2. Logistic Regression: 61.36%
+3. SVM: 60.79%
+4. SGD: 56.39%
+5. Random Forest: 56.29%
+6. Naive Bayes: 46.87%
 
 **2. Binary Sentiment Classification**
-SGD: 85.73%
-Logistic Regression: 85.54%
-CatBoost: 84.69%
-SVM: 83.95%
-Random Forest: 81.98%
-Naive Bayes: 77.59%
+1. SGD: 85.73%
+2. Logistic Regression: 85.54%
+3. CatBoost: 84.69%
+4. SVM: 83.95%
+5. Random Forest: 81.98%
+6, Naive Bayes: 77.59%
 
 <h2>Conclusion</h2>
 
 **Multiclass Classification:** CatBoost performed best, followed by Logistic Regression and SVM.
+
 **Binary Classification:** SGD and Logistic Regression excelled, closely followed by CatBoost and SVM.
